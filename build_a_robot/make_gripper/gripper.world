@@ -16,9 +16,5 @@
         <uri>model://my_gripper</uri>
     </include>
 
-    <include>
-        <uri>model://
-
-
     </world>
 </sdf>
