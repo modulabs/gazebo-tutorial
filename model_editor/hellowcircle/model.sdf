@@ -1,0 +1,491 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='hellowcircle'>
+    <link name='link_1'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <inertial>
+        <mass>1</mass>
+        <inertia>
+          <ixx>0.166667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.166667</iyy>
+          <iyz>0</iyz>
+          <izz>0.166667</izz>
+        </inertia>
+      </inertial>
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <polyline>
+            <height>0.1</height>
+            <point>-0.0047393 -0.00206155</point>
+            <point>-0.00429514 -0.00209671</point>
+            <point>-0.00386592 -0.00220009</point>
+            <point>-0.00345922 -0.00236855</point>
+            <point>-0.00308261 -0.00259896</point>
+            <point>-0.00274369 -0.00288816</point>
+            <point>-0.00245448 -0.00322709</point>
+            <point>-0.00222407 -0.0036037</point>
+            <point>-0.00205561 -0.0040104</point>
+            <point>-0.00195223 -0.00443962</point>
+            <point>-0.00191707 -0.00488378</point>
+            <point>-0.00195223 -0.00532794</point>
+            <point>-0.00205561 -0.00575716</point>
+            <point>-0.00222407 -0.00616386</point>
+            <point>-0.00245448 -0.00654047</point>
+            <point>-0.00274369 -0.0068794</point>
+            <point>-0.00308261 -0.0071686</point>
+            <point>-0.00345922 -0.00739901</point>
+            <point>-0.00386592 -0.00756747</point>
+            <point>-0.00429514 -0.00767085</point>
+            <point>-0.0047393 -0.00770601</point>
+            <point>-0.00518346 -0.00767085</point>
+            <point>-0.00561268 -0.00756747</point>
+            <point>-0.00601939 -0.00739901</point>
+            <point>-0.00639599 -0.0071686</point>
+            <point>-0.00673492 -0.0068794</point>
+            <point>-0.00702413 -0.00654047</point>
+            <point>-0.00725453 -0.00616386</point>
+            <point>-0.00742299 -0.00575716</point>
+            <point>-0.00752637 -0.00532794</point>
+            <point>-0.00756153 -0.00488378</point>
+            <point>-0.00752637 -0.00443962</point>
+            <point>-0.00742299 -0.0040104</point>
+            <point>-0.00725453 -0.0036037</point>
+            <point>-0.00702413 -0.00322709</point>
+            <point>-0.00673492 -0.00288816</point>
+            <point>-0.00639599 -0.00259896</point>
+            <point>-0.00601939 -0.00236855</point>
+            <point>-0.00561268 -0.00220009</point>
+            <point>-0.00518346 -0.00209671</point>
+            <point>-0.0047393 -0.00206155</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>-0.00478339 0.00847888</point>
+            <point>-0.00433924 0.00844372</point>
+            <point>-0.00391001 0.00834034</point>
+            <point>-0.00350331 0.00817188</point>
+            <point>-0.00312671 0.00794147</point>
+            <point>-0.00278778 0.00765226</point>
+            <point>-0.00249857 0.00731334</point>
+            <point>-0.00226817 0.00693673</point>
+            <point>-0.0020997 0.00653003</point>
+            <point>-0.00199632 0.00610081</point>
+            <point>-0.00196117 0.00565665</point>
+            <point>-0.00199632 0.00521249</point>
+            <point>-0.0020997 0.00478327</point>
+            <point>-0.00226817 0.00437656</point>
+            <point>-0.00249857 0.00399996</point>
+            <point>-0.00278778 0.00366103</point>
+            <point>-0.00312671 0.00337182</point>
+            <point>-0.00350331 0.00314142</point>
+            <point>-0.00391001 0.00297296</point>
+            <point>-0.00433924 0.00286958</point>
+            <point>-0.00478339 0.00283442</point>
+            <point>-0.00522755 0.00286958</point>
+            <point>-0.00565677 0.00297296</point>
+            <point>-0.00606348 0.00314142</point>
+            <point>-0.00644008 0.00337182</point>
+            <point>-0.00677901 0.00366103</point>
+            <point>-0.00706822 0.00399996</point>
+            <point>-0.00729862 0.00437657</point>
+            <point>-0.00746708 0.00478327</point>
+            <point>-0.00757046 0.00521249</point>
+            <point>-0.00760562 0.00565665</point>
+            <point>-0.00757046 0.00610081</point>
+            <point>-0.00746708 0.00653003</point>
+            <point>-0.00729862 0.00693673</point>
+            <point>-0.00706822 0.00731334</point>
+            <point>-0.00677901 0.00765226</point>
+            <point>-0.00644008 0.00794147</point>
+            <point>-0.00606348 0.00817188</point>
+            <point>-0.00565677 0.00834034</point>
+            <point>-0.00522755 0.00844372</point>
+            <point>-0.00478339 0.00847888</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>0.00496559 -0.00198144</point>
+            <point>0.00540974 -0.0020166</point>
+            <point>0.00583897 -0.00211998</point>
+            <point>0.00624567 -0.00228844</point>
+            <point>0.00662227 -0.00251885</point>
+            <point>0.0069612 -0.00280806</point>
+            <point>0.00725041 -0.00314698</point>
+            <point>0.00748081 -0.00352359</point>
+            <point>0.00764928 -0.00393029</point>
+            <point>0.00775266 -0.00435951</point>
+            <point>0.00778781 -0.00480367</point>
+            <point>0.00775266 -0.00524783</point>
+            <point>0.00764928 -0.00567705</point>
+            <point>0.00748081 -0.00608376</point>
+            <point>0.00725041 -0.00646036</point>
+            <point>0.0069612 -0.00679929</point>
+            <point>0.00662227 -0.0070885</point>
+            <point>0.00624567 -0.0073189</point>
+            <point>0.00583897 -0.00748736</point>
+            <point>0.00540974 -0.00759074</point>
+            <point>0.00496559 -0.0076259</point>
+            <point>0.00452143 -0.00759074</point>
+            <point>0.00409221 -0.00748736</point>
+            <point>0.0036855 -0.0073189</point>
+            <point>0.0033089 -0.0070885</point>
+            <point>0.00296997 -0.00679929</point>
+            <point>0.00268076 -0.00646036</point>
+            <point>0.00245036 -0.00608376</point>
+            <point>0.0022819 -0.00567705</point>
+            <point>0.00217852 -0.00524783</point>
+            <point>0.00214336 -0.00480367</point>
+            <point>0.00217852 -0.00435951</point>
+            <point>0.0022819 -0.00393029</point>
+            <point>0.00245036 -0.00352359</point>
+            <point>0.00268076 -0.00314698</point>
+            <point>0.00296997 -0.00280806</point>
+            <point>0.0033089 -0.00251885</point>
+            <point>0.0036855 -0.00228844</point>
+            <point>0.00409221 -0.00211998</point>
+            <point>0.00452143 -0.0020166</point>
+            <point>0.00496559 -0.00198144</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>0.00428672 0.00859032</point>
+            <point>0.00473088 0.00855516</point>
+            <point>0.0051601 0.00845178</point>
+            <point>0.0055668 0.00828332</point>
+            <point>0.00594341 0.00805291</point>
+            <point>0.00628234 0.00776371</point>
+            <point>0.00657154 0.00742478</point>
+            <point>0.00680195 0.00704817</point>
+            <point>0.00697041 0.00664147</point>
+            <point>0.00707379 0.00621225</point>
+            <point>0.00710895 0.00576809</point>
+            <point>0.00707379 0.00532393</point>
+            <point>0.00697041 0.00489471</point>
+            <point>0.00680195 0.00448801</point>
+            <point>0.00657154 0.0041114</point>
+            <point>0.00628233 0.00377247</point>
+            <point>0.00594341 0.00348327</point>
+            <point>0.0055668 0.00325286</point>
+            <point>0.0051601 0.0030844</point>
+            <point>0.00473088 0.00298102</point>
+            <point>0.00428672 0.00294586</point>
+            <point>0.00384256 0.00298102</point>
+            <point>0.00341334 0.0030844</point>
+            <point>0.00300664 0.00325286</point>
+            <point>0.00263003 0.00348327</point>
+            <point>0.0022911 0.00377247</point>
+            <point>0.00200189 0.0041114</point>
+            <point>0.00177149 0.00448801</point>
+            <point>0.00160303 0.00489471</point>
+            <point>0.00149965 0.00532393</point>
+            <point>0.00146449 0.00576809</point>
+            <point>0.00149965 0.00621225</point>
+            <point>0.00160303 0.00664147</point>
+            <point>0.00177149 0.00704817</point>
+            <point>0.00200189 0.00742478</point>
+            <point>0.0022911 0.00776371</point>
+            <point>0.00263003 0.00805291</point>
+            <point>0.00300664 0.00828332</point>
+            <point>0.00341334 0.00845178</point>
+            <point>0.00384256 0.00855516</point>
+            <point>0.00428672 0.00859032</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>-4.35468e-11 0.0118427</point>
+            <point>0.00385049 0.0112389</point>
+            <point>0.0071946 0.00955774</point>
+            <point>0.00983168 0.00699414</point>
+            <point>0.0115611 0.00374321</point>
+            <point>0.0121821 -3.17398e-10</point>
+            <point>0.0115611 -0.00374321</point>
+            <point>0.00983168 -0.00699414</point>
+            <point>0.0071946 -0.00955774</point>
+            <point>0.00385049 -0.0112389</point>
+            <point>-7.65342e-10 -0.0118427</point>
+            <point>-0.00385049 -0.0112389</point>
+            <point>-0.0071946 -0.00955774</point>
+            <point>-0.00983168 -0.00699414</point>
+            <point>-0.0115611 -0.0037432</point>
+            <point>-0.0121821 9.36953e-10</point>
+            <point>-0.0115611 0.0037432</point>
+            <point>-0.00983168 0.00699414</point>
+            <point>-0.0071946 0.00955774</point>
+            <point>-0.00385049 0.0112389</point>
+            <point>-4.7384e-10 0.0118427</point>
+          </polyline>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grey</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+          <specular>0.01 0.01 0.01 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+        <cast_shadows>1</cast_shadows>
+        <transparency>0</transparency>
+      </visual>
+      <collision name='collision'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <polyline>
+            <height>0.1</height>
+            <point>-0.0047393 -0.00206155</point>
+            <point>-0.00429514 -0.00209671</point>
+            <point>-0.00386592 -0.00220009</point>
+            <point>-0.00345922 -0.00236855</point>
+            <point>-0.00308261 -0.00259896</point>
+            <point>-0.00274369 -0.00288816</point>
+            <point>-0.00245448 -0.00322709</point>
+            <point>-0.00222407 -0.0036037</point>
+            <point>-0.00205561 -0.0040104</point>
+            <point>-0.00195223 -0.00443962</point>
+            <point>-0.00191707 -0.00488378</point>
+            <point>-0.00195223 -0.00532794</point>
+            <point>-0.00205561 -0.00575716</point>
+            <point>-0.00222407 -0.00616386</point>
+            <point>-0.00245448 -0.00654047</point>
+            <point>-0.00274369 -0.0068794</point>
+            <point>-0.00308261 -0.0071686</point>
+            <point>-0.00345922 -0.00739901</point>
+            <point>-0.00386592 -0.00756747</point>
+            <point>-0.00429514 -0.00767085</point>
+            <point>-0.0047393 -0.00770601</point>
+            <point>-0.00518346 -0.00767085</point>
+            <point>-0.00561268 -0.00756747</point>
+            <point>-0.00601939 -0.00739901</point>
+            <point>-0.00639599 -0.0071686</point>
+            <point>-0.00673492 -0.0068794</point>
+            <point>-0.00702413 -0.00654047</point>
+            <point>-0.00725453 -0.00616386</point>
+            <point>-0.00742299 -0.00575716</point>
+            <point>-0.00752637 -0.00532794</point>
+            <point>-0.00756153 -0.00488378</point>
+            <point>-0.00752637 -0.00443962</point>
+            <point>-0.00742299 -0.0040104</point>
+            <point>-0.00725453 -0.0036037</point>
+            <point>-0.00702413 -0.00322709</point>
+            <point>-0.00673492 -0.00288816</point>
+            <point>-0.00639599 -0.00259896</point>
+            <point>-0.00601939 -0.00236855</point>
+            <point>-0.00561268 -0.00220009</point>
+            <point>-0.00518346 -0.00209671</point>
+            <point>-0.0047393 -0.00206155</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>-0.00478339 0.00847888</point>
+            <point>-0.00433924 0.00844372</point>
+            <point>-0.00391001 0.00834034</point>
+            <point>-0.00350331 0.00817188</point>
+            <point>-0.00312671 0.00794147</point>
+            <point>-0.00278778 0.00765226</point>
+            <point>-0.00249857 0.00731334</point>
+            <point>-0.00226817 0.00693673</point>
+            <point>-0.0020997 0.00653003</point>
+            <point>-0.00199632 0.00610081</point>
+            <point>-0.00196117 0.00565665</point>
+            <point>-0.00199632 0.00521249</point>
+            <point>-0.0020997 0.00478327</point>
+            <point>-0.00226817 0.00437656</point>
+            <point>-0.00249857 0.00399996</point>
+            <point>-0.00278778 0.00366103</point>
+            <point>-0.00312671 0.00337182</point>
+            <point>-0.00350331 0.00314142</point>
+            <point>-0.00391001 0.00297296</point>
+            <point>-0.00433924 0.00286958</point>
+            <point>-0.00478339 0.00283442</point>
+            <point>-0.00522755 0.00286958</point>
+            <point>-0.00565677 0.00297296</point>
+            <point>-0.00606348 0.00314142</point>
+            <point>-0.00644008 0.00337182</point>
+            <point>-0.00677901 0.00366103</point>
+            <point>-0.00706822 0.00399996</point>
+            <point>-0.00729862 0.00437657</point>
+            <point>-0.00746708 0.00478327</point>
+            <point>-0.00757046 0.00521249</point>
+            <point>-0.00760562 0.00565665</point>
+            <point>-0.00757046 0.00610081</point>
+            <point>-0.00746708 0.00653003</point>
+            <point>-0.00729862 0.00693673</point>
+            <point>-0.00706822 0.00731334</point>
+            <point>-0.00677901 0.00765226</point>
+            <point>-0.00644008 0.00794147</point>
+            <point>-0.00606348 0.00817188</point>
+            <point>-0.00565677 0.00834034</point>
+            <point>-0.00522755 0.00844372</point>
+            <point>-0.00478339 0.00847888</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>0.00496559 -0.00198144</point>
+            <point>0.00540974 -0.0020166</point>
+            <point>0.00583897 -0.00211998</point>
+            <point>0.00624567 -0.00228844</point>
+            <point>0.00662227 -0.00251885</point>
+            <point>0.0069612 -0.00280806</point>
+            <point>0.00725041 -0.00314698</point>
+            <point>0.00748081 -0.00352359</point>
+            <point>0.00764928 -0.00393029</point>
+            <point>0.00775266 -0.00435951</point>
+            <point>0.00778781 -0.00480367</point>
+            <point>0.00775266 -0.00524783</point>
+            <point>0.00764928 -0.00567705</point>
+            <point>0.00748081 -0.00608376</point>
+            <point>0.00725041 -0.00646036</point>
+            <point>0.0069612 -0.00679929</point>
+            <point>0.00662227 -0.0070885</point>
+            <point>0.00624567 -0.0073189</point>
+            <point>0.00583897 -0.00748736</point>
+            <point>0.00540974 -0.00759074</point>
+            <point>0.00496559 -0.0076259</point>
+            <point>0.00452143 -0.00759074</point>
+            <point>0.00409221 -0.00748736</point>
+            <point>0.0036855 -0.0073189</point>
+            <point>0.0033089 -0.0070885</point>
+            <point>0.00296997 -0.00679929</point>
+            <point>0.00268076 -0.00646036</point>
+            <point>0.00245036 -0.00608376</point>
+            <point>0.0022819 -0.00567705</point>
+            <point>0.00217852 -0.00524783</point>
+            <point>0.00214336 -0.00480367</point>
+            <point>0.00217852 -0.00435951</point>
+            <point>0.0022819 -0.00393029</point>
+            <point>0.00245036 -0.00352359</point>
+            <point>0.00268076 -0.00314698</point>
+            <point>0.00296997 -0.00280806</point>
+            <point>0.0033089 -0.00251885</point>
+            <point>0.0036855 -0.00228844</point>
+            <point>0.00409221 -0.00211998</point>
+            <point>0.00452143 -0.0020166</point>
+            <point>0.00496559 -0.00198144</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>0.00428672 0.00859032</point>
+            <point>0.00473088 0.00855516</point>
+            <point>0.0051601 0.00845178</point>
+            <point>0.0055668 0.00828332</point>
+            <point>0.00594341 0.00805291</point>
+            <point>0.00628234 0.00776371</point>
+            <point>0.00657154 0.00742478</point>
+            <point>0.00680195 0.00704817</point>
+            <point>0.00697041 0.00664147</point>
+            <point>0.00707379 0.00621225</point>
+            <point>0.00710895 0.00576809</point>
+            <point>0.00707379 0.00532393</point>
+            <point>0.00697041 0.00489471</point>
+            <point>0.00680195 0.00448801</point>
+            <point>0.00657154 0.0041114</point>
+            <point>0.00628233 0.00377247</point>
+            <point>0.00594341 0.00348327</point>
+            <point>0.0055668 0.00325286</point>
+            <point>0.0051601 0.0030844</point>
+            <point>0.00473088 0.00298102</point>
+            <point>0.00428672 0.00294586</point>
+            <point>0.00384256 0.00298102</point>
+            <point>0.00341334 0.0030844</point>
+            <point>0.00300664 0.00325286</point>
+            <point>0.00263003 0.00348327</point>
+            <point>0.0022911 0.00377247</point>
+            <point>0.00200189 0.0041114</point>
+            <point>0.00177149 0.00448801</point>
+            <point>0.00160303 0.00489471</point>
+            <point>0.00149965 0.00532393</point>
+            <point>0.00146449 0.00576809</point>
+            <point>0.00149965 0.00621225</point>
+            <point>0.00160303 0.00664147</point>
+            <point>0.00177149 0.00704817</point>
+            <point>0.00200189 0.00742478</point>
+            <point>0.0022911 0.00776371</point>
+            <point>0.00263003 0.00805291</point>
+            <point>0.00300664 0.00828332</point>
+            <point>0.00341334 0.00845178</point>
+            <point>0.00384256 0.00855516</point>
+            <point>0.00428672 0.00859032</point>
+          </polyline>
+          <polyline>
+            <height>0.1</height>
+            <point>-4.35468e-11 0.0118427</point>
+            <point>0.00385049 0.0112389</point>
+            <point>0.0071946 0.00955774</point>
+            <point>0.00983168 0.00699414</point>
+            <point>0.0115611 0.00374321</point>
+            <point>0.0121821 -3.17398e-10</point>
+            <point>0.0115611 -0.00374321</point>
+            <point>0.00983168 -0.00699414</point>
+            <point>0.0071946 -0.00955774</point>
+            <point>0.00385049 -0.0112389</point>
+            <point>-7.65342e-10 -0.0118427</point>
+            <point>-0.00385049 -0.0112389</point>
+            <point>-0.0071946 -0.00955774</point>
+            <point>-0.00983168 -0.00699414</point>
+            <point>-0.0115611 -0.0037432</point>
+            <point>-0.0121821 9.36953e-10</point>
+            <point>-0.0115611 0.0037432</point>
+            <point>-0.00983168 0.00699414</point>
+            <point>-0.0071946 0.00955774</point>
+            <point>-0.00385049 0.0112389</point>
+            <point>-4.7384e-10 0.0118427</point>
+          </polyline>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1</mu>
+              <mu2>1</mu2>
+              <fdir1>0 0 0</fdir1>
+              <slip1>0</slip1>
+              <slip2>0</slip2>
+            </ode>
+            <torsional>
+              <coefficient>1</coefficient>
+              <patch_radius>0</patch_radius>
+              <surface_radius>0</surface_radius>
+              <use_patch_radius>1</use_patch_radius>
+              <ode>
+                <slip>0</slip>
+              </ode>
+            </torsional>
+          </friction>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>1e+06</threshold>
+          </bounce>
+          <contact>
+            <collide_without_contact>0</collide_without_contact>
+            <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+            <collide_bitmask>1</collide_bitmask>
+            <ode>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+              <max_vel>0.01</max_vel>
+              <min_depth>0</min_depth>
+            </ode>
+            <bullet>
+              <split_impulse>1</split_impulse>
+              <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+              <soft_cfm>0</soft_cfm>
+              <soft_erp>0.2</soft_erp>
+              <kp>1e+13</kp>
+              <kd>1</kd>
+            </bullet>
+          </contact>
+        </surface>
+      </collision>
+    </link>
+    <static>0</static>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
